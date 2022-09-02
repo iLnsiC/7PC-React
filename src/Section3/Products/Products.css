@@ -1,0 +1,8 @@
+.products {
+  display: flex;
+  margin: auto;
+  width: 99vw;
+  height: 25rem;
+  text-align: center;
+  justify-content: space-around;
+}

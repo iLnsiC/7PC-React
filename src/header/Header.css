@@ -1,0 +1,8 @@
+.Header__Container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0.8rem auto 1rem auto;
+  width: 1300px;
+  margin: auto;
+}

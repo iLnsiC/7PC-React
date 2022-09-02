@@ -1,0 +1,43 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  width: 475px;
+  height: 100%;
+}
+.price {
+  position: relative;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+}
+.price-promo {
+  color: #f67b55;
+}
+.barre {
+  position: absolute;
+  left: 44%;
+  top: 10px;
+  transform: rotate(-15deg);
+  height: 2px;
+  width: 55px;
+  background: #2e1c1c;
+  z-index: 5;
+}
+.photo {
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  border-style: inherit;
+  border: 0px;
+  border-color: white;
+  transition: border 500ms;
+  background: url("./img/envie_et_paresse_copie.png") no-repeat center
+    center/cover;
+}
+.photo:hover {
+  transform: scale(105%);
+  transition: transform 1s;
+  border: 1px solid #f67b55;
+}
+.void {
+  color: transparent !important;
+}

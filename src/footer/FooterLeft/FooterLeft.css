@@ -1,0 +1,29 @@
+.Left__footer {
+  position: absolute;
+  width: 22%;
+  left: 4%;
+}
+.logo {
+  /*A regler sur un grand ecran*/
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  width: 35%;
+  height: 25%;
+  background: url("./logo.png") no-repeat center center/cover;
+  z-index: 2;
+}
+.Left__footer ul {
+  position: absolute;
+  width: 90%;
+  z-index: 2;
+  top: 40%;
+  left: 5%;
+  font-size: 1rem;
+}
+.Left__footer li {
+  padding-left: 5%;
+  margin: 1rem auto;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: #2e1c1c;
+}

@@ -1,0 +1,32 @@
+.Right__footer {
+  position: absolute;
+  width: 45%;
+  right: 4%;
+}
+.categories {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.sousCat {
+  width: 18%;
+  height: 100%;
+}
+.sousCat .titre {
+  height: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.sousCat li,
+a {
+  font-size: 0.8rem;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  margin-bottom: 1.5rem;
+}

@@ -1,0 +1,8 @@
+.Section_1 {
+  margin: 1rem 0;
+  height: 50rem;
+  display: grid;
+  grid-template-areas:
+    "mainphoto mainCaramel"
+    "mainphoto article";
+}

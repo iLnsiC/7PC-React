@@ -1,0 +1,28 @@
+.Search {
+  display: flex;
+  justify-content: center;
+}
+button {
+  border: 0px;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+.Search_bar {
+  margin-left: 0.5rem;
+  width: 6rem;
+  height: 1.5rem;
+  padding: 0.3rem 0.5rem 0.1rem 1rem;
+  border: inherit;
+  border-radius: 40px;
+  box-shadow: inset 0.1rem 0.2rem 5px rgba(163, 136, 119, 0.3);
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+.Search_bar::placeholder {
+  color: #a38877;
+  font-family: "Parisienne", Arial, Helvetica, sans-serif;
+}
+.Search_bar:focus {
+  outline: transparent;
+}

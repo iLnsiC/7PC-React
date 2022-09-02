@@ -1,0 +1,8 @@
+.card {
+  top: 15%;
+  height: 85%;
+  border-radius: 5% 5% 0 0;
+  backdrop-filter: saturate(150%) blur(18px);
+  position: absolute;
+  background: transparent;
+}

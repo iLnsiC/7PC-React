@@ -1,0 +1,21 @@
+.bonbon {
+  width: 33%;
+  height: 100%;
+  position: absolute;
+  justify-content: center;
+}
+.bonbon-1 {
+  background: url("./img/bonbon1.png") no-repeat center center/cover;
+  background-size: 50%;
+  left: 0;
+}
+.bonbon-2 {
+  background: url("./img/bonbon3.png") no-repeat center center/cover;
+  background-size: 70%;
+  left: 33%;
+}
+.bonbon-3 {
+  background: url("./img/bonbon2.png") no-repeat center center/cover;
+  background-size: 50%;
+  left: 66%;
+}

@@ -1,0 +1,10 @@
+.Section_2 {
+  margin: 1rem 0;
+  height: 30rem;
+  display: grid;
+  align-items: center;
+  grid-template-rows: 10rem 20rem;
+  grid-template-areas:
+    "article mainphoto"
+    "carousel mainphoto";
+}

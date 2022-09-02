@@ -1,0 +1,5 @@
+.Logo {
+  width: 6rem;
+  height: 6rem;
+  background: url("logo.png") no-repeat center center/cover;
+}

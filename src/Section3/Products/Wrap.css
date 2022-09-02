@@ -1,0 +1,12 @@
+.wrap {
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-95%) translateY(-28%) rotate(-45deg);
+  height: 0;
+  width: 280px;
+  border-bottom: 50px solid #fff;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  filter: opacity(75%);
+}
